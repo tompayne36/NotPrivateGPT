@@ -1,5 +1,5 @@
-# privateGPT
-Ask questions to your documents without an internet connection, using the power of LLMs. 100% private, no data leaves your execution environment at any point. You can ingest documents and ask questions without an internet connection!
+# NotprivateGPT
+Ask questions to your documents using the power of OpenAI LLMs (or 100% private). You can ingest documents and ask questions with or without an internet connection!
 
 Built with [LangChain](https://github.com/hwchase17/langchain), [GPT4All](https://github.com/nomic-ai/gpt4all), [LlamaCpp](https://github.com/ggerganov/llama.cpp), [Chroma](https://www.trychroma.com/) and [SentenceTransformers](https://www.sbert.net/).
 
@@ -22,7 +22,7 @@ cp example.env .env
 
 and edit the variables appropriately in the `.env` file.
 ```
-MODEL_TYPE: supports LlamaCpp or GPT4All
+MODEL_TYPE: supports LlamaCpp or GPT4All or OpenAI
 PERSIST_DIRECTORY: is the folder you want your vectorstore in
 MODEL_PATH: Path to your GPT4All or LlamaCpp supported LLM
 MODEL_N_CTX: Maximum token limit for the LLM model
